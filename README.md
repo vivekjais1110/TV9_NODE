@@ -62,13 +62,20 @@ The project uses the following environment variables (found in .env):
 
 # API Endpoints
 > User Routes
-POST /api/v1/register: Register a new user.
-POST /api/v1/login: Login and receive a JWT token.
+- POST /api/v1/register: Register a new user.
+- POST /api/v1/login: Login and receive a JWT token.
 
 > Task Routes
-POST /api/v1/tasks: Create a new task.
-GET /api/v1/tasks_get: Fetch tasks based on filters (e.g., status, priority, due date).
-PUT /api/v1/tasks_update/:id: Update a task by ID.
+- POST /api/v1/tasks: Create a new task.
+- GET /api/v1/tasks_get: Fetch tasks based on filters (e.g., status, priority, due date).
+- PUT /api/v1/tasks_update/:id: Update a task by ID(e.g., status, priority).
+- DELETE /api/v1/tasks_delete/:id: Delete a task by ID.
+ 
+# Bonus features API
+> NODE MAILER WITH 'node-cron' (send an email or log a notification when a task is nearing its due date)
+- api/v1/tasks_get_status
+- api/v1/getTasks_pagination
+
 For full API details, import the provided Postman collection (TV9.postman_collection.json) into Postman.
 
 #Dependencies
