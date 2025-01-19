@@ -75,7 +75,7 @@ The project uses the following environment variables (found in .env):
 - GET api/v1/tasks_get_status: Fetch tasks based on filters (status).
 - GET api/v1/getTasks_pagination Fetch tasks based on filter (e.g, page=1&limit=3)
 
-For full API details, import the provided Postman collection ([TV9.postman_collection.json](https://github.com/vivekjais1110/TV9_NODE/blob/main/TV9.postman_collection.json)) into Postman.
+For full API details, import the provided Postman collection with (save resopnse example) ([TV9.postman_collection.json](https://github.com/vivekjais1110/TV9_NODE/blob/main/TV9.postman_collection.json)) into Postman.
 
 # Dependencies
 > Major dependencies used in this project include:
