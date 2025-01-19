@@ -9,6 +9,7 @@
 - MySQL for relational data.
 - MongoDB for task storage.
 - Task prioritization and status management.
+- Pagination and Filter.
 - Node Mailer.
 
 # Bonus Features: 
