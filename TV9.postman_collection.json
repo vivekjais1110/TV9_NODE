@@ -1,0 +1,919 @@
+{
+	"info": {
+		"_postman_id": "513b35f1-bc8c-4454-bd0d-5b681761e37e",
+		"name": "TV9",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25240302"
+	},
+	"item": [
+		{
+			"name": "register",
+			"item": [
+				{
+					"name": "http://localhost:6000/api/v1/register",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"rahul@gmail.com\",\r\n  \"password\": \"rahul123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:6000/api/v1/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6000",
+							"path": [
+								"api",
+								"v1",
+								"register"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "http://localhost:6000/api/v1/register",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"email\": \"rahul@gmail.com\",\r\n  \"password\": \"rahul123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:6000/api/v1/register",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "6000",
+									"path": [
+										"api",
+										"v1",
+										"register"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "223"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"df-jrp752znCXjPVw7ctvr8QW6HFSI\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 15 Jan 2025 06:03:24 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"User registered\",\n    \"user\": {\n        \"createdAt\": \"2025-01-15T06:03:24.668Z\",\n        \"id\": 5,\n        \"email\": \"rahul@gmail.com\",\n        \"password\": \"$2b$10$G/y7A5R9.1ewsjFyD/FHZ.QrPWDJZyP6WxaB9mQCWcKmD0RDWDyjy\",\n        \"updatedAt\": \"2025-01-15T06:03:24.669Z\"\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "login",
+			"item": [
+				{
+					"name": "http://localhost:6000/api/v1/login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"rahul@gmail.com\",\r\n  \"password\": \"rahul123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:6000/api/v1/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6000",
+							"path": [
+								"api",
+								"v1",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "http://localhost:6000/api/v1/login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"email\": \"rahul@gmail.com\",\r\n  \"password\": \"rahul123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:6000/api/v1/login",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "6000",
+									"path": [
+										"api",
+										"v1",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "178"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"b2-Iq2PI5PVZobKI8GWOT5KVbuJp7k\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 15 Jan 2025 10:22:27 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Login successful\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiaWF0IjoxNzM2OTM2NTQ3LCJleHAiOjE3MzY5NDAxNDd9.0Np_TrVJZN4-dlxeSMYYQhtgsjbiOgFPGjF2mrZkBwI\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "task create",
+			"item": [
+				{
+					"name": "http://localhost:6000/api/v1/tasks",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiaWF0IjoxNzM2OTM2NTQ3LCJleHAiOjE3MzY5NDAxNDd9.0Np_TrVJZN4-dlxeSMYYQhtgsjbiOgFPGjF2mrZkBwI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"title\": \"Comgddfgsdf\",\r\n  \"description\": \"a\",\r\n  \"dueDate\": \"2025-01-20\",\r\n  \"priority\": \"Low\",\r\n  \"status\": \"In Progress\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:6000/api/v1/tasks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6000",
+							"path": [
+								"api",
+								"v1",
+								"tasks"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "http://localhost:6000/api/v1/tasks",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiaWF0IjoxNzM2OTM2NTQ3LCJleHAiOjE3MzY5NDAxNDd9.0Np_TrVJZN4-dlxeSMYYQhtgsjbiOgFPGjF2mrZkBwI",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"title\": \"Comgddfgsdf\",\r\n  \"description\": \"a\",\r\n  \"dueDate\": \"2025-01-20\",\r\n  \"priority\": \"Low\",\r\n  \"status\": \"In Progress\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:6000/api/v1/tasks",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "6000",
+									"path": [
+										"api",
+										"v1",
+										"tasks"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "245"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"f5-Qwbs57Wrj/0R/2X0WvCOGfA2tq8\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 15 Jan 2025 09:54:35 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Task created\",\n    \"task\": {\n        \"userId\": \"5\",\n        \"title\": \"Comgddfgsdf\",\n        \"description\": \"a\",\n        \"dueDate\": \"2025-01-20T00:00:00.000Z\",\n        \"status\": \"In Progress\",\n        \"priority\": \"Low\",\n        \"_id\": \"678785dbf7165eef711fa0d9\",\n        \"createdAt\": \"2025-01-15T09:54:35.539Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "task get",
+			"item": [
+				{
+					"name": "http://localhost:6000/api/v1/tasks_get",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiaWF0IjoxNzM2OTM2NTQ3LCJleHAiOjE3MzY5NDAxNDd9.0Np_TrVJZN4-dlxeSMYYQhtgsjbiOgFPGjF2mrZkBwI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"status\": \"In Progress\",\r\n  \"priority\": \"High\",\r\n  \"dueDate\": \"2025-01-20\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:6000/api/v1/tasks_get",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6000",
+							"path": [
+								"api",
+								"v1",
+								"tasks_get"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "http://localhost:6000/api/v1/tasks_get",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiaWF0IjoxNzM2OTM4NTU1LCJleHAiOjE3MzY5NDIxNTV9.TE9hii-oCn0FgtSvQRp78oO-roXvoAELqQTG7vrd1KE",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:6000/api/v1/tasks_get?status=In Progress&priority=High&dueDate=2025-01-20",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "6000",
+									"path": [
+										"api",
+										"v1",
+										"tasks_get"
+									],
+									"query": [
+										{
+											"key": "status",
+											"value": "In Progress"
+										},
+										{
+											"key": "priority",
+											"value": "High"
+										},
+										{
+											"key": "dueDate",
+											"value": "2025-01-20"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "221"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"dd-p03ZRHosZp8JS8nDkNLDGT6Tm9c\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 15 Jan 2025 10:59:17 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"tasks\": [\n        {\n            \"_id\": \"67875858f9d42767e7ec111c\",\n            \"userId\": \"5\",\n            \"title\": \"Comgfgdf\",\n            \"description\": \"a\",\n            \"dueDate\": \"2025-01-20T00:00:00.000Z\",\n            \"status\": \"In Progress\",\n            \"priority\": \"High\",\n            \"createdAt\": \"2025-01-15T06:40:24.248Z\",\n            \"__v\": 0\n        }\n    ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "task update",
+			"item": [
+				{
+					"name": "http://localhost:6000/api/v1/tasks_update/67875858f9d42767e7ec111c",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiaWF0IjoxNzM2OTM2NTQ3LCJleHAiOjE3MzY5NDAxNDd9.0Np_TrVJZN4-dlxeSMYYQhtgsjbiOgFPGjF2mrZkBwI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"status\": \"In Progress\",\r\n  \"priority\": \"High\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:6000/api/v1/tasks_update/67875858f9d42767e7ec111c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6000",
+							"path": [
+								"api",
+								"v1",
+								"tasks_update",
+								"67875858f9d42767e7ec111c"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "http://localhost:6000/api/v1/tasks_update/67875858f9d42767e7ec111c",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiaWF0IjoxNzM2OTM2NTQ3LCJleHAiOjE3MzY5NDAxNDd9.0Np_TrVJZN4-dlxeSMYYQhtgsjbiOgFPGjF2mrZkBwI",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"status\": \"In Progress\",\r\n  \"priority\": \"High\"\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:6000/api/v1/tasks_update/67875858f9d42767e7ec111c",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "6000",
+									"path": [
+										"api",
+										"v1",
+										"tasks_update",
+										"67875858f9d42767e7ec111c"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "257"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"101-A1KPAADZQ180q2vtXCA8IzvTrow\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 15 Jan 2025 10:43:20 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Task updated successfully.\",\n    \"task\": {\n        \"_id\": \"67875858f9d42767e7ec111c\",\n        \"userId\": \"5\",\n        \"title\": \"Comgfgdf\",\n        \"description\": \"a\",\n        \"dueDate\": \"2025-01-20T00:00:00.000Z\",\n        \"status\": \"In Progress\",\n        \"priority\": \"High\",\n        \"createdAt\": \"2025-01-15T06:40:24.248Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "task delete",
+			"item": [
+				{
+					"name": "http://localhost:6000/api/v1/tasks_delete/...",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiaWF0IjoxNzM2OTM4OTc4LCJleHAiOjE3MzY5NDI1Nzh9.e8AcsN1sARJd8I06BBzKbEpk-RjD318cqmGgrDJBOwc",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:6000/api/v1/tasks_delete/678758f98426f0a432558453",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6000",
+							"path": [
+								"api",
+								"v1",
+								"tasks_delete",
+								"678758f98426f0a432558453"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiaWF0IjoxNzM2OTM4OTc4LCJleHAiOjE3MzY5NDI1Nzh9.e8AcsN1sARJd8I06BBzKbEpk-RjD318cqmGgrDJBOwc",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:6000/api/v1/tasks_delete/678758f98426f0a432558453",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "6000",
+									"path": [
+										"api",
+										"v1",
+										"tasks_delete",
+										"678758f98426f0a432558453"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "40"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"28-KNXwoN+noDF/jJcTYIh6QYR6GT4\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 15 Jan 2025 11:09:32 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Task deleted successfully.\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "task get by status filter",
+			"item": [
+				{
+					"name": "http://localhost:6000/api/v1/tasks_get_status?status=In Progress",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiaWF0IjoxNzM3MDE5Mzg5LCJleHAiOjE3MzcwMjI5ODl9.SeGN8tf66yDY_cLlsd9xoah310A4SFBCS8h5Z_fB0Is",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:6000/api/v1/tasks_get_status?status=In Progress",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6000",
+							"path": [
+								"api",
+								"v1",
+								"tasks_get_status"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "In Progress"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "http://localhost:6000/api/v1/tasks_get_status?status=In Progress",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiaWF0IjoxNzM3MDE5Mzg5LCJleHAiOjE3MzcwMjI5ODl9.SeGN8tf66yDY_cLlsd9xoah310A4SFBCS8h5Z_fB0Is",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:6000/api/v1/tasks_get_status?status=In Progress",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "6000",
+									"path": [
+										"api",
+										"v1",
+										"tasks_get_status"
+									],
+									"query": [
+										{
+											"key": "status",
+											"value": "In Progress"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "2829"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"b0d-zv8XVkYqsJllV7JMJO0Pg4gUx3c\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 16 Jan 2025 09:26:27 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"tasks\": [\n        {\n            \"_id\": \"67874fed684295ac977fc5a0\",\n            \"userId\": \"5\",\n            \"title\": \"Comgfgdf\",\n            \"description\": \"Implemefdgdfg management1\",\n            \"dueDate\": \"2025-01-20T18:30:00.000Z\",\n            \"status\": \"In Progress\",\n            \"priority\": \"Low\",\n            \"createdAt\": \"2025-01-15T06:04:29.055Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"678755c9e6e8182e5015945d\",\n            \"userId\": \"5\",\n            \"title\": \"Comgfgdf\",\n            \"description\": \"Implemefdgdfg management1\",\n            \"dueDate\": \"2025-01-20T18:30:00.000Z\",\n            \"status\": \"In Progress\",\n            \"priority\": \"Low\",\n            \"createdAt\": \"2025-01-15T06:29:29.708Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"678757cef9d42767e7ec1114\",\n            \"userId\": \"5\",\n            \"title\": \"Comgfgdf\",\n            \"description\": \"Implemefdgdfg management1\",\n            \"dueDate\": \"2025-01-20T18:30:00.000Z\",\n            \"status\": \"In Progress\",\n            \"priority\": \"Low\",\n            \"createdAt\": \"2025-01-15T06:38:06.486Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"678757f5f9d42767e7ec1116\",\n            \"userId\": \"5\",\n            \"title\": \"Comgfgdf\",\n            \"description\": \"Implemefdgdfg management1\",\n            \"dueDate\": \"2025-01-20T18:30:00.000Z\",\n            \"status\": \"In Progress\",\n            \"priority\": \"Low\",\n            \"createdAt\": \"2025-01-15T06:38:45.695Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"67875858f9d42767e7ec111c\",\n            \"userId\": \"5\",\n            \"title\": \"Comgfgdf\",\n            \"description\": \"a\",\n            \"dueDate\": \"2025-01-20T00:00:00.000Z\",\n            \"status\": \"In Progress\",\n            \"priority\": \"High\",\n            \"createdAt\": \"2025-01-15T06:40:24.248Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"678758fd8426f0a432558456\",\n            \"userId\": \"5\",\n            \"title\": \"Comgfgdf\",\n            \"description\": \"a\",\n            \"dueDate\": \"2025-01-20T00:00:00.000Z\",\n            \"status\": \"In Progress\",\n            \"priority\": \"Low\",\n            \"createdAt\": \"2025-01-15T06:43:09.513Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"67875933f0374f738ef44791\",\n            \"userId\": \"5\",\n            \"title\": \"Comgfgdf\",\n            \"description\": \"a\",\n            \"dueDate\": \"2025-01-20T00:00:00.000Z\",\n            \"status\": \"In Progress\",\n            \"priority\": \"Low\",\n            \"createdAt\": \"2025-01-15T06:44:03.942Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"67875935f0374f738ef44794\",\n            \"userId\": \"5\",\n            \"title\": \"Comgfgdf\",\n            \"description\": \"a\",\n            \"dueDate\": \"2025-01-20T00:00:00.000Z\",\n            \"status\": \"In Progress\",\n            \"priority\": \"Low\",\n            \"createdAt\": \"2025-01-15T06:44:05.372Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"67875944f0374f738ef44797\",\n            \"userId\": \"5\",\n            \"title\": \"Comgfgdf\",\n            \"description\": \"a\",\n            \"dueDate\": \"2025-01-20T00:00:00.000Z\",\n            \"status\": \"In Progress\",\n            \"priority\": \"Low\",\n            \"createdAt\": \"2025-01-15T06:44:20.111Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"67875958f0374f738ef4479a\",\n            \"userId\": \"5\",\n            \"title\": \"Comgfgdf\",\n            \"description\": \"a\",\n            \"dueDate\": \"2025-01-20T00:00:00.000Z\",\n            \"status\": \"In Progress\",\n            \"priority\": \"Low\",\n            \"createdAt\": \"2025-01-15T06:44:40.554Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"67875959f0374f738ef4479d\",\n            \"userId\": \"5\",\n            \"title\": \"Comgfgdf\",\n            \"description\": \"a\",\n            \"dueDate\": \"2025-01-20T00:00:00.000Z\",\n            \"status\": \"In Progress\",\n            \"priority\": \"Low\",\n            \"createdAt\": \"2025-01-15T06:44:41.553Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"67875b1326434d3b4c4b1db8\",\n            \"userId\": \"5\",\n            \"title\": \"Comgfgsdf\",\n            \"description\": \"a\",\n            \"dueDate\": \"2025-01-20T00:00:00.000Z\",\n            \"status\": \"In Progress\",\n            \"priority\": \"Low\",\n            \"createdAt\": \"2025-01-15T06:52:03.871Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"678785dbf7165eef711fa0d9\",\n            \"userId\": \"5\",\n            \"title\": \"Comgddfgsdf\",\n            \"description\": \"a\",\n            \"dueDate\": \"2025-01-20T00:00:00.000Z\",\n            \"status\": \"In Progress\",\n            \"priority\": \"Low\",\n            \"createdAt\": \"2025-01-15T09:54:35.539Z\",\n            \"__v\": 0\n        }\n    ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "pagination",
+			"item": [
+				{
+					"name": "http://localhost:6000/api/v1/getTasks_pagination?page=1&limit=3",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiaWF0IjoxNzM3MDk4MTQ4LCJleHAiOjE3MzcxMDE3NDh9.r0ej5SovtNiXalSC5O3zvo6FFpkTuARfn6MgrzXR1Wk",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:6000/api/v1/getTasks_pagination?page=1&limit=3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "6000",
+							"path": [
+								"api",
+								"v1",
+								"getTasks_pagination"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "http://localhost:6000/api/v1/getTasks_pagination?page=1&limit=3",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiaWF0IjoxNzM3MDk4MTQ4LCJleHAiOjE3MzcxMDE3NDh9.r0ej5SovtNiXalSC5O3zvo6FFpkTuARfn6MgrzXR1Wk",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:6000/api/v1/getTasks_pagination?page=1&limit=3",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "6000",
+									"path": [
+										"api",
+										"v1",
+										"getTasks_pagination"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "limit",
+											"value": "3"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "710"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2c6-d6ddGi08ddJAl8HH2sGlvLA+bfo\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 17 Jan 2025 07:16:08 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"tasks\": [\n        {\n            \"_id\": \"67874fed684295ac977fc5a0\",\n            \"userId\": \"5\",\n            \"title\": \"Comgfgdf\",\n            \"description\": \"Implemefdgdfg management1\",\n            \"dueDate\": \"2025-01-20T18:30:00.000Z\",\n            \"status\": \"In Progress\",\n            \"priority\": \"Low\",\n            \"createdAt\": \"2025-01-15T06:04:29.055Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"678755c9e6e8182e5015945d\",\n            \"userId\": \"5\",\n            \"title\": \"Comgfgdf\",\n            \"description\": \"Implemefdgdfg management1\",\n            \"dueDate\": \"2025-01-20T18:30:00.000Z\",\n            \"status\": \"In Progress\",\n            \"priority\": \"Low\",\n            \"createdAt\": \"2025-01-15T06:29:29.708Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"678757cef9d42767e7ec1114\",\n            \"userId\": \"5\",\n            \"title\": \"Comgfgdf\",\n            \"description\": \"Implemefdgdfg management1\",\n            \"dueDate\": \"2025-01-20T18:30:00.000Z\",\n            \"status\": \"In Progress\",\n            \"priority\": \"Low\",\n            \"createdAt\": \"2025-01-15T06:38:06.486Z\",\n            \"__v\": 0\n        }\n    ]\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
