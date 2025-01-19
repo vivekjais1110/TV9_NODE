@@ -76,9 +76,9 @@ The project uses the following environment variables (found in .env):
 - api/v1/tasks_get_status
 - api/v1/getTasks_pagination
 
-For full API details, import the provided Postman collection (TV9.postman_collection.json) into Postman.
+For full API details, import the provided Postman collection ([TV9.postman_collection.json](https://github.com/vivekjais1110/TV9_NODE/blob/main/TV9.postman_collection.json)) into Postman.
 
-#Dependencies
+# Dependencies
 > Major dependencies used in this project include:
 
 - Express: Web framework.
