@@ -27,7 +27,6 @@ its due date).
 # Clone the repository:
 ```sh
 git clone https://github.com/vivekjais1110/TV9_NODE.git
-cd TV9_NODE
 ```
 # Install dependencies:
 ```sh
